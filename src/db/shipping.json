@@ -1,0 +1,62 @@
+{
+	"stats": {
+		"weight": "373325383577912985",
+		"kilograms": "0.3kg",
+		"dimensions": "37 x 26 x 7 cm"
+	},
+	"product_details": [
+		{
+			"value": "373325383577912985",
+			"icon": {
+				"src": "icons/weight.svg",
+				"alt_text": "weight icon of your shipping",
+				"label": "weight"
+			}
+		},
+
+		{
+			"value": "0.3kg",
+			"icon": {
+				"src": "icons/weight-2.svg",
+				"alt_text": "kilograms icon of your shipping",
+				"label": "kilograms"
+			}
+		},
+
+		{
+			"value": "37 x 26 x 7 cm",
+			"icon": {
+				"src": "icons/dimensions.svg",
+				"alt_text": "dimensions icon of your shipping",
+				"label": "dimensions"
+			}
+		}
+	],
+	"state": [
+		{
+			"title": "The shipment has arrived at the terminal.",
+			"location": "March 23 at 08.20 - 5020 BERGEN",
+			"completed": true
+		},
+		{
+			"title": "The shipment is in transit.",
+			"location": "March 22 at 07.20 - 0024 OSLO",
+			"completed": false
+		},
+		{
+			"title": "The broadcast is sorted and forwarded.",
+			"location": "March 22 at 00.38 - 0024 OSLO",
+			"completed": false
+		},
+		{
+			"title": "Consignment has been dispatched to the terminal and forwarded.",
+			"location": "March 22 at 00.33 - 0024 OSLO",
+			"completed": false
+		},
+		{
+			"title": "We have received information about the shipment, which is currently with the sender or is on its way to Bring's terminal. The tracking is updated when the shipment has arrived at the terminal in the receiving country.",
+			"location": "March 21 at 07.35",
+			"completed": false
+		}
+	]
+}
